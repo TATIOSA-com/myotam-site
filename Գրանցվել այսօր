@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="hy-AM">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G8XYPZV9BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G8XYPZV9BK');
+</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MyOTA.am | Հայաստանի Առաջին Տուրիզմի B2B B2C Էկոհամակարգ</title>
@@ -41,7 +50,10 @@
   <div class="container nav">
     <a class="logo" href="#top" aria-label="MyOTA.am"><img src="https://ota.am/wp-content/uploads/2025/03/MyOTA-Logo.png" alt="MyOTA.am logo"></a>
     <nav class="menu" id="menu" aria-label="Main navigation">
-      <a href="#for">Ո՞ւմ համար է</a><a href="#features">Հնարավորություններ</a><a href="#journey">Էկոհամակարգ</a><a class="nav-cta" target="_blank" rel="noopener" href="https://My.OTA.am">Գրանցվել այսօր</a>
+      <a href="#for">Ո՞ւմ համար է</a><a href="#features">Հնարավորություններ</a><a href="#journey">Էկոհամակարգ</a><a class="nav-cta" target="_blank" rel="noopener" href="https://My.OTA.am"
+onclick="gtag('event', 'register_click', { event_category: 'conversion', event_label: 'nav_register' });">
+Գրանցվել այսօր
+</a>
     </nav>
     <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
   </div>
@@ -52,7 +64,10 @@
       <div class="eyebrow">Armenia’s First B2B B2C Tourism Ecosystem</div>
       <h1>Միացեք Հայաստանի Առաջին և Միակ հայկական տուրիզմի վաճառքի էկոհամակարգին</h1>
       <p>Ամրագրումներ, ծառայություններ, միջոցառումներ և B2B2C՝ մեկ հարթակում։</p>
-      <div class="hero-actions"><a class="btn btn-primary" href="https://My.OTA.am" target="_blank" rel="noopener">Գրանցվել այսօր →</a><a class="btn btn-secondary" href="#for">Ընտրել Ձեր գործունեությունը</a></div>
+      <div class="hero-actions"><a class="btn btn-primary" href="https://My.OTA.am" target="_blank" rel="noopener"
+onclick="gtag('event', 'register_click', { event_category: 'conversion', event_label: 'hero_register' });">
+Գրանցվել այսօր →
+</a><a class="btn btn-secondary" href="#for">Ընտրել Ձեր գործունեությունը</a></div>
       <div class="hero-note">Powered by TATIOSA</div>
     </div>
   </section>
@@ -74,7 +89,10 @@
     <article class="feature"><div class="icon">⭐</div><h3>Բացառիկ առաջարկներ</h3><p>Զբոսավարները կարող են ստանալ հատուկ պայմաններ՝ անվճար սենյակ, նախաճաշ կամ զեղչված գիշերակաց։</p></article>
   </div></div></section>
   <section class="journey" id="journey"><div class="container"><div class="section-head"><div class="kicker">The ecosystem</div><h2>Մեկ հյուր → եկամուտ ամբողջ համակարգի համար</h2><p>Զբոսաշրջիկին պետք է ավելին, քան սենյակ․ նրան պետք են տուրեր, միջոցառումներ, ծառայություններ և վստահելի տեղական առաջարկներ։ MyOTA.am-ը կապում է այդ ամենը։</p></div><div class="steps"><div class="step"><b>01</b><h3>Գտնում է</h3><p>Հյուրը գտնում է կացարան, ծառայություն կամ միջոցառում։</p></div><div class="step"><b>02</b><h3>Ամրագրում է</h3><p>Ամրագրումը գրանցվում է համակարգում՝ համապատասխան գործընկերոջ միջոցով։</p></div><div class="step"><b>03</b><h3>Ուղղորդում է</h3><p>Եթե ազատ տեղեր չունի, կարող է հյուրին ուղարկել մյուսին։</p></div><div class="step"><b>04</b><h3>Եկամուտ է ստեղծում</h3><p>MyOTA-ի օգտատերեը ստանում են նոր եկամտի աղբյուր։</p></div></div></div></section>
-  <section class="cta" id="cta"><div class="container"><div class="cta-box"><div><h2>Միացեք Հայաստանի տուրիզմի նոր էկոհամակարգին</h2><p>Հյուրանոց, հյուրատուն, զբոսավար, ինֆո կենտրոն, ծառայություն կամ միջոցառում՝ MyOTA.am-ը ստեղծվել է Ձեր համար։</p></div><a class="btn btn-primary" href="https://My.OTA.am" target="_blank" rel="noopener">Գրանցվել և ստանալ ամրագրումներ →</a></div></div></section>
+  <section class="cta" id="cta"><div class="container"><div class="cta-box"><div><h2>Միացեք Հայաստանի տուրիզմի նոր էկոհամակարգին</h2><p>Հյուրանոց, հյուրատուն, զբոսավար, ինֆո կենտրոն, ծառայություն կամ միջոցառում՝ MyOTA.am-ը ստեղծվել է Ձեր համար։</p></div><a class="btn btn-primary" href="https://My.OTA.am" target="_blank" rel="noopener"
+onclick="gtag('event', 'register_click', { event_category: 'conversion', event_label: 'bottom_register' });">
+Գրանցվել և ստանալ ամրագրումներ →
+</a></div></div></section>
 </main>
 <footer class="footer"><div class="container"><img src="https://ota.am/wp-content/uploads/2025/03/MyOTA-Logo.png" alt="MyOTA.am logo"><span>Հայաստանի տուրիզմի առաջին լիարժեք հայկական B2B B2C էկոհամակարգ • by TATIOSA</span></div></footer>
 <script>
@@ -87,8 +105,16 @@ const data=[
 {icon:'🎟️',tab:'Միջոցառումներ',title:'Մեկ հարթակ՝ Հայաստանի միջոցառումները տեսանելի դարձնելու համար',img:'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=900&q=80',stat:'Events across Armenia',items:['Հրապարակեք մեծ միջոցառումներ, փառատոններ, համերգներ, տուրեր և տեղական իրադարձություններ։','Ձեր միջոցառումները հասանելի կլինեն MyOTA.am-ի օգտատերերին։','Միջոցառումները կարող են ցուցադրվել նաև AYA.am, OTA.am և այլ գործընկերային կայքերում։','Տուրիզմի գործընկերները կարող են գտնել և առաջարկել Ձեր միջոցառումները իրենց հաճախորդներին։','Ստեղծեք լրացուցիչ այցելուներ և վաճառք Ձեր միջոցառումների համար։'],cta:'Հրապարակել միջոցառում'}
 ];
 const tabs=document.getElementById('tabs'),panels=document.getElementById('panels');
-data.forEach((d,i)=>{const b=document.createElement('button');b.className='tab'+(i===0?' active':'');b.innerHTML=`<span>${d.icon}</span>${d.tab}`;b.onclick=()=>activate(i);tabs.appendChild(b);const p=document.createElement('article');p.className='panel'+(i===0?' active':'');p.innerHTML=`<div><h3>${d.title}</h3><ul>${d.items.map(x=>`<li>${x}</li>`).join('')}</ul><a class="btn btn-primary" target="_blank" rel="noopener" href="https://My.OTA.am">${d.cta} →</a></div><div class="visual" style="--img:url('${d.img}')"><div class="visual-card"><strong>${d.stat}</strong><small>MyOTA.am tourism ecosystem</small></div></div>`;panels.appendChild(p)});
-function activate(i){[...tabs.children].forEach((x,n)=>x.classList.toggle('active',n===i));[...panels.children].forEach((x,n)=>x.classList.toggle('active',n===i));}
+data.forEach((d,i)=>{const b=document.createElement('button');b.className='tab'+(i===0?' active':'');b.innerHTML=`<span>${d.icon}</span>${d.tab}`;b.onclick=()=>activate(i);tabs.appendChild(b);const p=document.createElement('article');p.className='panel'+(i===0?' active':'');p.innerHTML=`<div><h3>${d.title}</h3><ul>${d.items.map(x=>`<li>${x}</li>`).join('')}</ul><a class="btn btn-primary" target="_blank" rel="noopener" href="https://My.OTA.am"
+onclick="gtag('event', 'register_click', { event_category: 'conversion', event_label: '${d.tab}' });">
+${d.cta} →
+</a></div><div class="visual" style="--img:url('${d.img}')"><div class="visual-card"><strong>${d.stat}</strong><small>MyOTA.am tourism ecosystem</small></div></div>`;panels.appendChild(p)});
+function activate(i){var role = data[i].tab;
+
+  gtag('event', 'role_select', {
+    event_category: 'engagement',
+    event_label: role
+  });[...tabs.children].forEach((x,n)=>x.classList.toggle('active',n===i));[...panels.children].forEach((x,n)=>x.classList.toggle('active',n===i));}
 document.getElementById('tabArrow').onclick=()=>tabs.scrollBy({left:260,behavior:'smooth'});
 const header=document.getElementById('header');addEventListener('scroll',()=>header.classList.toggle('scrolled',scrollY>40));document.getElementById('mobileToggle').onclick=()=>document.getElementById('menu').classList.toggle('open');
 </script>
